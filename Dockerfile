@@ -1,4 +1,4 @@
-FROM apache:latest
+FROM php:7.4-apache
 WORKDIR /var/www/html
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt update && apt install apache2 -y 
