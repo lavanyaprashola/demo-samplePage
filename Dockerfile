@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM php:latest
 WORKDIR /var/www/html
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt update && apt install apache2 -y 
