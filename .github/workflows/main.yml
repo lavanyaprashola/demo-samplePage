@@ -16,3 +16,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         image: ${{ secrets.IMAGE_NAME }}
     
+
