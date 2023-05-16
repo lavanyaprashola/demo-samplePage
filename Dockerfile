@@ -6,6 +6,7 @@ RUN apt install php php-mysql -y
 COPY SamplePage.php  /var/www/html
 CMD cd /var/www/html
 CMD ["mv","index.html"," index.php"]
+
 EXPOSE 8080
 
 
